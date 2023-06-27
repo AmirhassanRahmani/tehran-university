@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Sahel;
+  src: url("https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel.eot");
+  src: url("https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel.woff") format("woff"),
+    url("https://cdn.fontcdn.ir/Font/Persian/Sahel/Sahel.ttf")
+      format("truetype");
+  font-weight: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: Sahel;
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sahel;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  list-style-type: none;
 }
